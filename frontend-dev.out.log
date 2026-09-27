@@ -1,0 +1,109 @@
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.8s (911 modules)
+ GET / 200 in 86ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.6s (895 modules)
+ GET /images/apple.png 404 in 5356ms
+ GET /images/banana.png 404 in 5424ms
+ GET /images/chips.png 404 in 5456ms
+ GET /images/carrots.png 404 in 5495ms
+ ✓ Compiled in 948ms (419 modules)
+ ✓ Compiled in 558ms (419 modules)
+ ✓ Compiled in 510ms (419 modules)
+ ✓ Compiled in 420ms (419 modules)
+ ✓ Compiled in 521ms (419 modules)
+ ✓ Compiled in 682ms (419 modules)
+ ✓ Compiled in 5.4s (419 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 971ms (506 modules)
+ GET / 200 in 1617ms
+ ✓ Compiled /_not-found in 382ms (507 modules)
+ GET /images/apple.png 404 in 921ms
+ GET /images/banana.png 404 in 968ms
+ GET /images/chips.png 404 in 982ms
+ GET /images/carrots.png 404 in 1003ms
+ GET / 200 in 217ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 2.5s (941 modules)
+ GET / 200 in 3365ms
+ GET /blog 200 in 3616ms
+ ○ Compiling /blog/[slug] ...
+ ✓ Compiled /blog/[slug] in 2.6s (1077 modules)
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 8921ms
+ ✓ Compiled in 1456ms (1066 modules)
+ ✓ Compiled in 948ms (1066 modules)
+ ✓ Compiled in 974ms (1071 modules)
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 712ms
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 124ms
+ ○ Compiling /shop ...
+ ✓ Compiled /shop in 2.1s (1065 modules)
+ GET /shop?category=fresh-fruits 200 in 3211ms
+ ○ Compiling /shop/[id] ...
+ ✓ Compiled /shop/[id] in 1569ms (1082 modules)
+ GET /shop/6aae6581a83ce28aa63b18c5 200 in 3411ms
+ GET / 200 in 120ms
+ ✓ Compiled in 1283ms (932 modules)
+ ✓ Compiled in 403ms (932 modules)
+ ✓ Compiled in 480ms (932 modules)
+ GET / 200 in 881ms
+ GET / 200 in 61ms
+ GET /shop 200 in 516ms
+ GET / 200 in 77ms
+ GET / 200 in 81ms
+ GET / 200 in 76ms
+ GET / 200 in 88ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1246ms (512 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.2s (1173 modules)
+ GET / 500 in 12541ms
+ GET /_next/static/css/app/layout.css?v=1789823907321 404 in 424ms
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 10.9s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 20.5s (926 modules)
+ GET / 200 in 23465ms
+ GET /_next/static/webpack/283c75513b0d73c5.webpack.hot-update.json 404 in 23395ms
+ GET / 200 in 399ms
+ ✓ Compiled in 682ms (419 modules)
+ GET /_next/static/css/app/layout.css?v=1789824080742 404 in 104ms
+ ✓ Compiled in 476ms (419 modules)
+ GET /_next/static/css/app/layout.css?v=1789824083497 404 in 94ms
+ GET / 200 in 265ms
+ GET /_next/static/css/app/layout.css?v=1789826551433 404 in 227ms
+ GET /_next/static/chunks/main-app.js?v=1789826551433 404 in 279ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 279ms
+ GET /_next/static/chunks/app/page.js 404 in 279ms
+ GET /_next/static/chunks/app/layout.js 404 in 280ms
+ GET /_next/static/chunks/app/error.js 404 in 289ms
+ GET /_next/static/chunks/app/not-found.js 404 in 96ms
+ GET / 200 in 72ms
+ GET /_next/static/css/app/layout.css?v=1789826553343 404 in 73ms
+ GET /_next/static/chunks/main-app.js?v=1789826553343 404 in 271ms
+ GET /_next/static/chunks/app/page.js 404 in 259ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 263ms
+ GET /_next/static/chunks/app/layout.js 404 in 260ms
+ GET /_next/static/chunks/app/error.js 404 in 257ms
+ GET /_next/static/chunks/app/not-found.js 404 in 246ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.9s (1138 modules)
+ GET / 404 in 4308ms
+ GET / 200 in 392ms
+ GET /_next/static/css/app/layout.css?v=1789827222616 404 in 207ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 266ms
+ GET /_next/static/chunks/app/page.js 404 in 266ms
+ GET /_next/static/chunks/main-app.js?v=1789827222616 404 in 265ms
+ GET /_next/static/chunks/app/layout.js 404 in 265ms
+ GET /_next/static/chunks/app/error.js 404 in 269ms
+ GET /_next/static/chunks/app/not-found.js 404 in 68ms
+ GET / 200 in 75ms

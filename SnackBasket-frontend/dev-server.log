@@ -1,0 +1,615 @@
+
+> snackbasket-frontend@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3002
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling /wishlist ...
+ ✓ Compiled /wishlist in 4.7s (873 modules)
+ ⨯ src\app\wishlist\page.jsx (10:11) @ wishlistItems
+ ⨯ TypeError: Cannot destructure property 'wishlistItems' of '(0 , _context_WishlistContext__WEBPACK_IMPORTED_MODULE_3__.useWishlist)(...)' as it is undefined.
+    at WishlistPage (./src/app/wishlist/page.jsx:20:13)
+digest: "1855714621"
+[0m [90m  8 |[39m[0m
+[0m [90m  9 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mWishlistPage[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m   [36mconst[39m { wishlistItems[33m,[39m toggleWishlist } [33m=[39m useWishlist()[33m;[39m[0m
+[0m [90m    |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m   [36mconst[39m { addToCart } [33m=[39m useCart()[33m;[39m[0m
+[0m [90m 12 |[39m[0m
+[0m [90m 13 |[39m   [36mif[39m (wishlistItems[33m.[39mlength [33m===[39m [35m0[39m) {[0m
+ GET /wishlist 200 in 5698ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (897 modules)
+ GET / 200 in 2987ms
+ GET / 200 in 108ms
+ ○ Compiling /wishlist ...
+ ✓ Compiled /wishlist in 6.9s (911 modules)
+ GET /wishlist 200 in 1184ms
+ GET / 200 in 168ms
+ ○ Compiling /shop ...
+ ✓ Compiled /shop in 1080ms (897 modules)
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 7.5s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 7.9s (867 modules)
+ GET /services?searchTerm=wash 404 in 8526ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1664ms (926 modules)
+ GET /images/apple.png 404 in 406ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 412ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 413ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 416ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /shop ...
+ ✓ Compiled /shop in 725ms (920 modules)
+ GET /images/apple.png 404 in 248ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 251ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 253ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 254ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 784ms (938 modules)
+ GET /images/blog1.png 404 in 181ms
+ ⨯ The requested resource isn't a valid image for /images/blog1.png received null
+ GET /images/blog2.png 404 in 186ms
+ ⨯ The requested resource isn't a valid image for /images/blog2.png received null
+ GET /images/blog3.png 404 in 187ms
+ ⨯ The requested resource isn't a valid image for /images/blog3.png received null
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 753ms (952 modules)
+ GET /images/apple.png 404 in 169ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 171ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 173ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 175ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 134ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 121ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 121ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 124ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 97ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 98ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 99ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 100ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 95ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 95ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 98ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 99ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 122ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/chips.png 404 in 121ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/banana.png 404 in 125ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/carrots.png 404 in 127ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 145ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 150ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 153ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 155ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 108ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 111ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 113ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 113ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 124ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 126ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 129ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 134ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 112ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 114ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 116ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 118ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 88ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 90ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 90ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 92ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 96ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 98ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 100ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 104ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 100ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 100ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 102ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 105ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /shop/[id] ...
+ ✓ Compiled /shop/[id] in 3.5s (1101 modules)
+ GET /images/apple.png 404 in 201ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/apple.png 404 in 131ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 131ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 133ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 136ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 96ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 98ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 101ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 103ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 110ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 109ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 110ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 112ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 50ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 907ms (1094 modules)
+ GET /images/apple.png 404 in 182ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/apple.png 404 in 155ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 159ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 161ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 162ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 115ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 118ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 119ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 121ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/carrots.png 404 in 57ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /wishlist ...
+ ✓ Compiled /wishlist in 855ms (1102 modules)
+ GET /images/apple.png 404 in 189ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 191ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 194ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 195ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 722ms (676 modules)
+ GET /images/apple.png 404 in 176ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 178ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 182ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 183ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/carrots.png 404 in 50ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /checkout ...
+ ✓ Compiled /checkout in 917ms (1118 modules)
+ ○ Compiling /order-success ...
+ ✓ Compiled /order-success in 1070ms (1122 modules)
+ GET /images/apple.png 404 in 207ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 209ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 210ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 212ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 120ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 120ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 122ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 124ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 120ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 121ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 123ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 126ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1328ms (985 modules)
+ ○ Compiling /register ...
+ ✓ Compiled /register in 787ms (993 modules)
+ GET /images/carrots.png 404 in 175ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/carrots.png 404 in 56ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /wishlist ...
+ ✓ Compiled /wishlist in 570ms (548 modules)
+ GET /images/apple.png 404 in 231ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 234ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 236ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 238ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.1s (991 modules)
+ ✓ Compiled /contact in 448ms (541 modules)
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 610ms (551 modules)
+ ✓ Compiled /shop in 405ms (552 modules)
+ ✓ Compiled in 1ms (557 modules)
+ ✓ Compiled in 0ms (557 modules)
+ ✓ Compiled in 1ms (557 modules)
+ GET /images/blog1.png 404 in 2154ms
+ ⨯ The requested resource isn't a valid image for /images/blog1.png received null
+ GET /images/blog2.png 404 in 2156ms
+ ⨯ The requested resource isn't a valid image for /images/blog2.png received null
+ GET /images/blog3.png 404 in 2158ms
+ ⨯ The requested resource isn't a valid image for /images/blog3.png received null
+ GET /images/apple.png 404 in 304ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 306ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 308ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 309ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 116ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 116ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 118ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 121ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/blog1.png 404 in 110ms
+ ⨯ The requested resource isn't a valid image for /images/blog1.png received null
+ GET /images/blog2.png 404 in 113ms
+ ⨯ The requested resource isn't a valid image for /images/blog2.png received null
+ GET /images/blog3.png 404 in 116ms
+ ⨯ The requested resource isn't a valid image for /images/blog3.png received null
+ GET /images/blog1.png 404 in 89ms
+ ⨯ The requested resource isn't a valid image for /images/blog1.png received null
+ GET /images/blog2.png 404 in 90ms
+ ⨯ The requested resource isn't a valid image for /images/blog2.png received null
+ GET /images/blog3.png 404 in 91ms
+ ⨯ The requested resource isn't a valid image for /images/blog3.png received null
+ GET /images/apple.png 404 in 98ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 101ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 104ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 104ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 101ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 99ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 101ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 106ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 136ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 133ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/carrots.png 404 in 134ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/chips.png 404 in 137ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/apple.png 404 in 155ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 156ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 161ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 165ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 116ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 114ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 117ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 119ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 93ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 91ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 94ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 95ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 101ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 103ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 105ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 108ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 118ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 120ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 123ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 126ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 99ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 100ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 104ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 106ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 130ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 132ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 135ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 138ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 91ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 91ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 93ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 93ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 88ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 90ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 91ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 93ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 96ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 99ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 101ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 104ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 122ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 124ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/carrots.png 404 in 126ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/chips.png 404 in 130ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/apple.png 404 in 109ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 108ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 111ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 113ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/apple.png 404 in 93ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 93ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/chips.png 404 in 96ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ GET /images/carrots.png 404 in 97ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ ○ Compiling /account ...
+ ✓ Compiled /account in 2.6s (1011 modules)
+ ✓ Compiled in 577ms (469 modules)
+ GET /images/apple.png 404 in 344ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ GET /images/banana.png 404 in 330ms
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ GET /images/carrots.png 404 in 334ms
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET /images/chips.png 404 in 350ms
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 6.1s (1231 modules)
+ GET / 200 in 445ms
+ GET / 200 in 75ms
+ GET /_next/static/css/app/layout.css?v=1789816948559 404 in 246ms
+ GET /_next/static/chunks/main-app.js?v=1789816948559 404 in 260ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 258ms
+ GET /_next/static/chunks/app/page.js 404 in 256ms
+ GET /_next/static/chunks/app/error.js 404 in 255ms
+ GET /shop 200 in 124ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 712ms (582 modules)
+ GET /login 200 in 1162ms
+ ○ Compiling /register ...
+ ✓ Compiled /register in 599ms (587 modules)
+ GET /register 200 in 821ms
+ GET /dashboard 200 in 72ms
+ GET /account 200 in 59ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 1488ms (597 modules)
+ GET /blog 200 in 2531ms
+ GET / 200 in 2096ms
+ GET /_next/static/css/app/layout.css?v=1789816954683 404 in 183ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 227ms
+ GET /_next/static/chunks/main-app.js?v=1789816954683 404 in 231ms
+ GET /_next/static/chunks/app/page.js 404 in 227ms
+ GET /_next/static/chunks/app/error.js 404 in 270ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 1090ms (603 modules)
+ GET /contact 200 in 1416ms
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 1262ms (610 modules)
+ GET /cart 200 in 1594ms
+ GET /wishlist 200 in 98ms
+ GET / 200 in 105ms
+ GET /_next/static/css/app/layout.css?v=1789817028071 404 in 90ms
+ GET /_next/static/chunks/main-app.js?v=1789817028071 404 in 218ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 216ms
+ GET /_next/static/chunks/app/page.js 404 in 205ms
+ GET /_next/static/chunks/app/error.js 404 in 173ms
+ GET / 200 in 65ms
+ GET /_next/static/css/app/layout.css?v=1789817029963 404 in 71ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 183ms
+ GET /_next/static/chunks/main-app.js?v=1789817029963 404 in 188ms
+ GET /_next/static/chunks/app/page.js 404 in 183ms
+ GET /_next/static/chunks/app/error.js 404 in 178ms
+ GET / 200 in 77ms
+ GET /_next/static/css/app/layout.css?v=1789817053401 404 in 96ms
+ GET /_next/static/chunks/main-app.js?v=1789817053401 404 in 152ms
+ GET /_next/static/chunks/app/error.js 404 in 120ms
+ GET /_next/static/chunks/app/page.js 404 in 119ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 117ms
+ GET / 200 in 142ms
+ ⨯ The requested resource isn't a valid image for /images/apple.png received null
+ ⨯ The requested resource isn't a valid image for /images/banana.png received null
+ ⨯ The requested resource isn't a valid image for /images/chips.png received null
+ ⨯ The requested resource isn't a valid image for /images/carrots.png received null
+ GET / 200 in 193ms
+ ○ Compiling /shop/[id] ...
+ ✓ Compiled /shop/[id] in 3.5s (718 modules)
+Product details load korte somossha hoyeche: Error: Cast to ObjectId failed for value "18252" (type string) at path "_id" for model "Product"
+    at eval (webpack-internal:///(rsc)/./src/services/api.js:21:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Axios.request (webpack-internal:///(rsc)/./node_modules/axios/lib/core/Axios.js:56:14)
+    at async getProductById (webpack-internal:///(rsc)/./src/services/productService.js:18:12)
+    at async ProductDetailPage (webpack-internal:///(rsc)/./src/app/shop/[id]/page.jsx:26:21)
+ GET /shop/18252 200 in 4243ms
+ ○ Compiling /blog/[slug] ...
+ ✓ Compiled /blog/[slug] in 2.6s (1378 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 636ms (738 modules)
+ GET /_next/static/webpack/09385962e88581dc.webpack.hot-update.json 404 in 1062ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 115ms
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 5156ms
+ GET /shop/6aae6581a83ce28aa63b18c5 200 in 164ms
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 127ms
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 98ms
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 116ms
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... src=... alt=... fill={true} className=... onError={function onError}>
+                                                         ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+digest: "2808519113"
+ GET /blog/top-grocery-deals-to-save-big-this-week 200 in 73ms
+[?25h
